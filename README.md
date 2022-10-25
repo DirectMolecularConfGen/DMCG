@@ -1,5 +1,5 @@
 # Direct Molecular Conformation Generation 
-This repository contains the code for *Direct Molecular Conformation Generation (DMCG)*.
+This repository contains the code for *[Direct Molecular Conformation Generation (DMCG)](https://openreview.net/pdf?id=lCPOHiztuw)*, which is introduced in TMLR2022.
 
 ## Requirements and Installation
 
@@ -75,3 +75,17 @@ python evaluate.py --dropout 0.1 --use-bn --lr-warmup --use-adamw --train-subset
 
 ## Checkpoints and logs
 We have provided the pretrained checkpoints and the corresponding logs on [GoogleDrive](https://drive.google.com/drive/folders/1PwXdDLZNSS8bc-kf3Xudd1Q6NySZojML?usp=sharing), and you can compare your configurations with our provided logs (specifically, the row started with "Namespace") to reproduce our results.
+
+## Citation
+If you find this work helpful in your research, please use the following BibTex entry to cite our paper.
+```
+@article{
+zhu2022direct,
+title={Direct Molecular Conformation Generation},
+author={Jinhua Zhu and Yingce Xia and Chang Liu and Lijun Wu and Shufang Xie and Yusong Wang and Tong Wang and Tao Qin and Wengang Zhou and Houqiang Li and Haiguang Liu and Tie-Yan Liu},
+journal={Transactions on Machine Learning Research},
+year={2022},
+url={https://openreview.net/forum?id=lCPOHiztuw},
+note={}
+}
+```
